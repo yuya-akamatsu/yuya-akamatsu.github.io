@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-501-neaty
 
 /* 追記 */
 :root {
-    --background-color: #3797c6; /* 背景色 (淡い青) */
+    --background-color: black; /* 背景色 (淡い青) */
     --header-color: black; /* 文字色 (濃いグレー) */
 	--hover-color: #edc420; /* カーソルをあわせたときの色 */
 }
@@ -25,7 +25,7 @@ http://www.templatemo.com/tm-501-neaty
 
 .social-section {
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .social-icons {
@@ -46,6 +46,25 @@ http://www.templatemo.com/tm-501-neaty
 .social-icons li a:hover {
     color: var(--hover-color);
 }
+
+ul li div {
+    margin:-1.6em 0 0 7em;
+}
+
+.me {
+	font-weight: bold;
+	text-decoration: underline;
+  }
+
+ol li {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+/* ul li {
+	padding-top:10px;
+	padding-bottom:10px;
+} */
 /* 追記おわり */
 
 body {
@@ -66,12 +85,12 @@ a:focus {
 .tm-left-right-container { width: 100%; }
 
 .tm-blue-bg {
-	background-color: #3797c6;
+	background-color: var(--background-color);
 	color: white;
 }
 
 .tm-blue-text {	color: #006599; }
-.tm-blue-bg a {	color: white; }
+.tm-blue-bg a {	color: var(--background-color) white; }
 
 .tm-site-name {
 	font-size: 4rem;
@@ -84,11 +103,13 @@ a:focus {
 	padding-bottom: 40px;
 }
 
-.tm-main-nav { display: none; }
+.tm-main-nav {
+	display: none; 
+}
 
 .tm-main-nav-ul {
 	display: inline-block;
-	padding-left: 0;
+	padding-left: 100;
 }
 
 .tm-section { margin-bottom: 60px; }
@@ -198,10 +219,37 @@ textarea:-ms-input-placeholder {
 	.tm-img-container-1 { width: 20%; }
 	.tm-img-container-2 { width: 33.3334%; }
 	.tm-img-container-3 { width: 25%; }
+	.tm-main-nav {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media (min-width: 768px) {
 	.tm-about-img-container { margin-top: 0; }
+}
+
+@media (min-height: 859px) {
+	.tm-logo-div {
+	    padding-top: 100px;
+	    padding-bottom: 100px;
+	}
+
+	.tm-nav-item { font-size: 1.9rem; }
+}
+
+@media (max-height: 860px) {
+	.tm-logo-div {
+	    padding-top: 45px;
+	    padding-bottom: 20px;
+	}
+
+	.tm-nav-item { font-size: 1.4rem; }
+
+	.tm-site-name {
+		font-size: 2.4rem;
+		margin-top: 10px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -232,7 +280,7 @@ textarea:-ms-input-placeholder {
 	}
 
 	.tm-site-name {
-	    font-size: 3.3rem;
+	    font-size: 2.4rem;
 	    margin-top: 30px;
 	}
 
@@ -286,6 +334,7 @@ textarea:-ms-input-placeholder {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
 }
 
 @media (min-width: 1800px) {
@@ -310,25 +359,3 @@ textarea:-ms-input-placeholder {
 	}
 }
 
-@media (max-height: 860px) {
-	.tm-logo-div {
-	    padding-top: 45px;
-	    padding-bottom: 20px;
-	}
-
-	.tm-nav-item { font-size: 1.4rem; }
-
-	.tm-site-name {
-		font-size: 2.4rem;
-		margin-top: 10px;
-	}
-}
-
-@media (min-height: 859px) {
-	.tm-logo-div {
-	    padding-top: 100px;
-	    padding-bottom: 100px;
-	}
-
-	.tm-nav-item { font-size: 1.9rem; }
-}
