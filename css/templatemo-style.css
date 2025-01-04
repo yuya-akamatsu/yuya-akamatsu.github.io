@@ -11,6 +11,7 @@ http://www.templatemo.com/tm-501-neaty
     --background-color: rgb(245, 239, 236); /* 背景色 (淡い青) */
     --header-color: black; /* 文字色 (濃いグレー) */
 	--hover-color: #edc420; /* カーソルをあわせたときの色 */
+	--comment-color: #8a805c
 }
 
 .helvetica-k-i { 
@@ -68,7 +69,11 @@ ol li {
 .comment {
 	font-size: 12px;
 	font-weight: 300;
-	color: black;
+	color: var(--comment-color);
+}
+
+.list-cv {
+	list-style: none;
 }
 
 /* ul li {
