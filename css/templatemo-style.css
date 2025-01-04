@@ -65,6 +65,12 @@ ol li {
 	padding-bottom:10px;
 }
 
+.comment {
+	font-size: 12px;
+	font-weight: 300;
+	color: black;
+}
+
 /* ul li {
 	padding-top:10px;
 	padding-bottom:10px;
