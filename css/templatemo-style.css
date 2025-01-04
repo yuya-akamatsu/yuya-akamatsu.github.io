@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-501-neaty
 
 /* 追記 */
 :root {
-    --background-color: white; /* 背景色 (淡い青) */
+    --background-color: rgb(245, 239, 236); /* 背景色 (淡い青) */
     --header-color: black; /* 文字色 (濃いグレー) */
 	--hover-color: #edc420; /* カーソルをあわせたときの色 */
 }
@@ -55,6 +55,10 @@ ul li div {
 	font-weight: bold;
 	text-decoration: underline;
   }
+
+.bold {
+	font-weight: 700;
+}
 
 ol li {
 	padding-top:10px;
@@ -120,7 +124,10 @@ a:focus {
 .tm-section { margin-bottom: 60px; }
 .tm-welcome-title {	font-size: 2.4rem; font-weight: bold; color: var(--header-color)}
 .tm-section-title {	font-size: 2.2rem; font-weight: bold; color: var(--header-color)}
-.tm-subsection-title {	font-size: 1.6rem; font-weight: bold; color: var(--header-color)} /* 20250101追記 */
+.tm-subsection-title {	
+	font-size: 1.6rem; 
+	font-weight: bold; 
+	color: var(--header-color);} /* 20250101追記 */
 .tm-content-div { padding: 40px; }
 .tm-margin-b-45 { margin-bottom: 45px; }
 .tm-margin-b-30 { margin-bottom: 30px; }
@@ -296,7 +303,7 @@ textarea:-ms-input-placeholder {
 
 	.tm-section { margin-bottom: 100px; }
 
-	.tm-content-div { padding: 80px 40px 30px 80px;	}
+	.tm-content-div { padding: 80px 120px 30px 80px;	}
 
 	.tm-img-container-1 {
 		margin-bottom: 10px;
