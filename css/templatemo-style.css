@@ -22,6 +22,10 @@ h2 {
 	font-family: 'MyFont', Helvetica, Arial, sans-serif;
 }
 
+h3 {
+	font-family: 'MyFont', Helvetica, Arial, sans-serif;
+}
+
 :root {
     --background-color: rgb(245, 239, 236); /* 背景色 (淡い青) */
     --header-color: black; /* 文字色 (濃いグレー) */
