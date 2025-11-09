@@ -7,23 +7,12 @@ http://www.templatemo.com/tm-501-neaty
 */
 
 /* 追記 */
-@font-face {
-  font-family: 'MyFont'; /* 好きな名前 */
-  src: url('../fonts/Helvetica-BlackItalic\ Regular.ttf') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
 
-h1 {
-	font-family: 'MyFont', Helvetica, Arial, sans-serif;
-}
-
-h2 {
-	font-family: 'MyFont', Helvetica, Arial, sans-serif;
-}
-
+h1,
+h2,
 h3 {
-	font-family: 'MyFont', Helvetica, Arial, sans-serif;
+  font-family: 'Geologica', system-ui, sans-serif;
+  /* font-style: italic; */
 }
 
 :root {
@@ -34,7 +23,8 @@ h3 {
 }
 
 .helvetica-k-i { 
-    font-family: Helvetica-BlackItalic;
+    font-family: Geologica;
+	font-weight: 700;
 }
 
 .float-right {
@@ -102,7 +92,7 @@ ol li {
 /* 追記おわり */
 
 body {
-	font-family: Helvetica, ヒラギノ角ゴシック, Arial, sans-serif;
+	font-family: 'Geologica', ヒラギノ角ゴシック, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	overflow-x: hidden;
